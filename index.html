@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SANYANG NETWORK</title>
+    <link rel="icon" href="img/favicon.png" type="image" >
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sy.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="logo"><img src="img/logo.png"></div>
+
+    <div id="nav-left">
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+<div data-spy="scroll" data-target="#nav-left" data-offset="100">
+    <div id="home">
+      <div class="beam b1"></div>
+      <div id="hero"><img src="img/hero.jpg"></div>
+      <span class="tag">HOME</span>
+      <div class="beam b2"></div>
+    </div>
+
+    <div id="products">
+      <div style="width: 100%;">
+        <div class="showcase">
+          <img src="img/product1.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ32</span></div>
+        </div>
+        <div class="showcase">
+          <img src="img/product2.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ33</span></div>
+        </div>
+        <div class="showcase">
+          <img src="img/product3.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ35</span></div>
+        </div>
+        <div class="showcase">
+          <img src="img/product4.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ36</span></div>
+        </div>
+        <div class="showcase">
+          <img src="img/product5.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ37</span></div>
+        </div>
+        <div class="showcase">
+          <img src="img/product6.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ38</span></div>
+        </div>
+        <div class="showcase">
+          <img src="img/product7.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ42</span></div>
+        </div>
+        <div class="showcase">
+          <img src="img/product8.jpg">
+          <div><span>Model No.:</span><span>&nbspSY-XZ43</span></div>
+        </div>
+      </div>
+      <span class="tag">PRODUCTS</span>
+      <div class="beam b3"></div>
+    </div>
+
+    <div id="about">
+      <img src="img/about.jpg">
+      <div id="history">
+        <span class="title">Our Story</span><br><br>
+        <span>Sanyang Shisha Factory was established six years ago. We devote ourselves to make high quality shisha accessories. We have a store based in Yiwu, Zhejiang, China. Most of the business we have done were offline. To provide better service and fast respond we’ve decided to extend our business to online. That’s why we established SANYANG NETWORK CO., LTD. We are working on this online part really seriously and wish to get more satisfaction from our customers. Furthermore, our brand new online store will be released soon enough, and hope everyone will like it.</span>
+      </div>
+      <span class="tag">ABOUT</span>
+      <div class="beam b4"></div>
+    </div>
+
+    <div id="contact">
+      <div id="info">
+        <span class="title">Contact</span><br><br>
+        <span class="sec-title">Oversea Director</span><br>
+        <span>Yuanchen Zhang</span><br>
+        <span>+49 157 8040 5148</span><br>
+        <span>yuanchen.work@gmail.com</span><br><br>
+        <span class="sec-title">Manufacturer Representative</span><br>
+        <span>Harry Chen</span><br>
+        <span>+86 151 6795 2885</span><br>
+        <span>harryatwork@qq.com</span>
+      </div>
+      <img src="img/contact.jpg">
+      <span class="tag">CONTACT</span> 
+    </div>
+    <div class="beam b5"></div>
+</div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    if(document.body.scrollWidth < 768){
+      document.getElementByClass('tag').style.display = 'none';
+    }
+    </script>
+
+    <script type="text/javascript">$('body').scrollspy({ target: '#nav-left' })</script>
+  </body>
+</html>
